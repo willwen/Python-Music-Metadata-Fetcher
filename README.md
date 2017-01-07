@@ -3,12 +3,26 @@ Search up songs, pull metadata from spotify and lyrics wikia, write back to id3 
 Overview
 ---
 In our example we will use "Jingle Bells" by James Lord Pierpont , a public domain song.
+  
 <ol>
-  <li>Load songs into /Songs folder</li>
-  <li>Add approrpiate text into blacklist</li>
-  <li>Run FetchMetadata.py</li>
-  <li>Check over songData.csv & Manually fix errors</li>
-  <li>Run readCSVEditTags.py and the songs will be converted!r</li>
+  <li>Load songs into /Songs folder <br/><img src = "screenshots/before.PNG?raw=true"></img></li>
+
+  <li>Add approrpiate text into blacklist <br/> <img src = "screenshots/blacklist.PNG?raw=true"></img></li>
+  <li>Run FetchMetadata.py, resulting in : 
+      <br/>
+      <img src = "screenshots/middle.PNG?raw=true"></img>
+</li>
+  <li>Check over songData.csv & Manually fix errors  
+    <br/> <img src = "screenshots/csv.PNG?raw=true"></img>
+    <br/>
+    <br/> <img src = "screenshots/manual add.PNG?raw=true"></img>
+  </li>
+  <li>Run readCSVEditTags.py and the songs will be converted!
+
+    <br/>
+      <img src = "screenshots/jingle%20bell%20before.png?raw=true" height = "640" width = "360"></img>
+     <img src = "screenshots/jingle%20bell%20after.png?raw=true" height = "640" width = "360"></img>
+  </li>
 </ol>
 
 Dependencies
