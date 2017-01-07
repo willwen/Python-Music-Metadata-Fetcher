@@ -1,10 +1,13 @@
 # Python-Music-Metadata-Fetcher
-search up songs, pull metadata from spotify and lyrics wikia, write back to id3 tag
-Design and Overview
+Search up songs, pull metadata from spotify and lyrics wikia, write back to id3 tag
+Overview
 ---
-1) Load songs into /Songs folder
-2) 
-
+In our example we will use "Jingle Bells" by James Lord Pierpont , a public domain song.
+- 1) Load songs into /Songs folder
+- 2) Add approrpiate text into blacklist
+- 3) Run FetchMetadata.py
+- 4) Check over songData.csv && Manually fix errors
+- 5) Run readCSVEditTags.py and the songs will be converted!
 Dependencies
 ---
 Python 2.7.1
