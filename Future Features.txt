@@ -1,0 +1,2 @@
+regex exp for blacklist
+chinese song support
