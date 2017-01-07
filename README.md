@@ -1,5 +1,5 @@
 # Python-Music-Metadata-Fetcher
-Search up songs, pull metadata from spotify and lyrics wikia, write back to id3 tag
+Search up songs, pull metadata from Spotify and Lyrics Wikia, write back to id3 tag
 Overview
 ---
 In our example we will use "Jingle Bells" by James Lord Pierpont , a public domain song.
