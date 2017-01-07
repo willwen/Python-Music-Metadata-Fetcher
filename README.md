@@ -27,6 +27,7 @@ In our example we will use "Jingle Bells" by James Lord Pierpont , a public doma
 Design & Details
 ---
 Based on a safe assumption that not every song can be automatically identified, this program seeks to modularize the metadata fetching process and have a real human check over the results (the intermediate csv file) before confirming the change.
+
 Given a song with filename A and no other data, the FetchMetadata.py script will retreive A, and strip it of any matching blacklisted text. After the title strip, resulting in A', FetchMetadata executes a search off of the spotify API in hopes of finding matches. It takes the first match and pulls out artist name, album name, song name, and cover art url. It downloads the cover art. It also constructs a new file name, A'' which combines the song name and artist name every time. After the spotify request and cover art is downloaded, FetchMetadata sends another request to lyricswikia in search of lyrics. The request now has the newly acquired spotify response title and artist. If any of the requests from spotfiy or lyricswikia return nothing, we just put an empty string entry into the excel sheet, allowing a user to change if necessary.
 
 After FetchMetadata finishes execution, a user should check over and fill any unfilled entries in the CSV file. 
