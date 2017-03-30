@@ -18,10 +18,12 @@ In our example we will use "Jingle Bells" by James Lord Pierpont , a public doma
     <br/> <img src = "screenshots/manual add.PNG?raw=true"></img>
   </li>
   <li>Run readCSVEditTags.py and the songs will be converted!
-
-     <img src = "screenshots/jingle bell before.png?raw=true" height = "640" width = "360"></img>
-     <img src = "screenshots/jingle bell after.png?raw=true" height = "640" width = "360"></img>
+  <br/>
+  <img src = "screenshots/jingle bell before.png?raw=true" height = "640" width = "360"></img>
+  <br/>
+  <img src = "screenshots/jingle bell after.png?raw=true" height = "640" width = "360"></img>
   </li>
+
 </ol>
 Design & Details
 ---
