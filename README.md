@@ -5,7 +5,7 @@ Overview
 In our example we will use "Jingle Bells" by James Lord Pierpont , a public domain song.
   
 <ol>
-  <li>Load songs into /Songs folder <br/><img src = "screenshots/before.PNG?raw=true"></img></li>
+  <li>Load songs into /Songs folder <br><br/><img src = "screenshots/before.PNG?raw=true"></img></li>
 
   <li>Add approrpiate text into blacklist <br/> <img src = "screenshots/blacklist.PNG?raw=true"></img></li>
   <li>Run FetchMetadata.py, resulting in : 
@@ -19,9 +19,8 @@ In our example we will use "Jingle Bells" by James Lord Pierpont , a public doma
   </li>
   <li>Run readCSVEditTags.py and the songs will be converted!
 
-    <br/>
-      <img src = "screenshots/jingle%20bell%20before.png?raw=true" height = "640" width = "360"></img>
-     <img src = "screenshots/jingle%20bell%20after.png?raw=true" height = "640" width = "360"></img>
+     <img src = "screenshots/jingle bell before.png?raw=true" height = "640" width = "360"></img>
+     <img src = "screenshots/jingle bell after.png?raw=true" height = "640" width = "360"></img>
   </li>
 </ol>
 Design & Details
