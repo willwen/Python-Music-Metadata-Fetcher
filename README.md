@@ -25,6 +25,8 @@ In our example we will use "Jingle Bells" by James Lord Pierpont , a public doma
   </li>
 
 </ol>
+
+
 Design & Details
 ---
 Based on a safe assumption that not every song can be automatically identified, this program seeks to modularize the metadata fetching process and have a real human check over the results (the intermediate csv file) before confirming the change.
